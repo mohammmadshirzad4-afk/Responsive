@@ -16,7 +16,7 @@ function NotFound() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Responsive">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
